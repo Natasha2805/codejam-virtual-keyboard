@@ -1,0 +1,51 @@
+#textarea {
+    width: 100%;
+    min-height: 150px;
+    top: 150px;
+    left:100px;
+    font-size: 18px;
+    border: 2px solid;
+    border-radius: 6px;
+    resize: none;
+}
+#keyboard {
+    position: fixed;
+    text-align: center;
+    left: 20px;
+    bottom: 50px;
+    width: auto;
+    height: auto;
+    padding: 5px 0;
+    background: #dfcffa;
+    transition: bottom 0.4s;
+}
+#keyboard-keys {
+    background: rgb(205, 216, 226);
+    display: flex;
+    flex-wrap: wrap;
+}
+.key{
+    height: 14%;
+    width: 6%;
+    background-color: rgb(75, 179, 240);
+    margin: 0.14%;
+    text-align: center;
+    padding: 1% 0;
+  }
+
+  .big-key{
+    width: 15%;
+  }
+ .space { 
+    width: 40.5%;
+    height: auto;
+   }
+  
+  p {
+    display:block; 
+    width:100%
+  }
+  .active {
+    background-color: #5c88ed;
+    border-radius: 25%;
+  }
